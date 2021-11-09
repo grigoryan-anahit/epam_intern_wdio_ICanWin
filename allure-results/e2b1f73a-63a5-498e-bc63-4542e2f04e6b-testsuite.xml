@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635424299893' stop='1635424303283'>
+    <name>pastebin application</name>
+    <title>pastebin application</title>
+    <test-cases>
+        <test-case start='1635424299893' status='broken' stop='1635424303281'>
+            <name>should set values</name>
+            <title>should set values</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.54'/>
+            </parameters>
+            <steps>
+                <step start='1635424299895' status='passed' stop='1635424300024'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='6e22a2bb-fb2d-425e-988f-2bd2f146a327-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635424300025' status='passed' stop='1635424302803'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7f9b2c18-59b2-4022-a2e2-22e8d46f2729-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635424302807' status='passed' stop='1635424302833'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c5d7c075-247d-430a-a41b-fc69a5a87c86-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='cd4b421e-681a-4c9c-a244-a59200aede8a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635424302847' status='passed' stop='1635424302879'>
+                    <name>POST /session/:sessionId/element/553b4036-7e76-43a5-b9df-7d38f708830b/clear</name>
+                    <title>POST /session/:sessionId/element/553b4036-7e76-43a5-b9df-7d38f708830b/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1635424302886' status='passed' stop='1635424302942'>
+                    <name>POST /session/:sessionId/element/553b4036-7e76-43a5-b9df-7d38f708830b/value</name>
+                    <title>POST /session/:sessionId/element/553b4036-7e76-43a5-b9df-7d38f708830b/value</title>
+                    <attachments>
+                        <attachment title='Request' source='e2ca5561-545f-4275-ab6a-3c2fe9d27217-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635424302944' status='passed' stop='1635424302966'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c43a46b0-11dc-4b91-8537-c24f3c2c044d-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='8d77231c-7e72-475b-b09f-ffbb2dc898ba-attachment.json' type='application/json' size='366'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635424302977' status='passed' stop='1635424303032'>
+                    <name>POST /session/:sessionId/element/c75fd373-4d2e-42bc-a1ad-c667d1d93f69/click</name>
+                    <title>POST /session/:sessionId/element/c75fd373-4d2e-42bc-a1ad-c667d1d93f69/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1635424303032' status='passed' stop='1635424303049'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='afab94dd-bfd5-4561-9ffa-e3b4b3accd94-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='8747770d-9d63-424f-ba9f-ff3fe82ae87b-attachment.json' type='application/json' size='366'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635424303057' status='passed' stop='1635424303279'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='345d1063-f47e-4fc8-a8d0-6444bd76e720-attachment.png' type='image/png' size='102132'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'trim' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'trim' of undefined
+                    at Element.selectByAttribute (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\I can win\node_modules\webdriverio\build\commands\element\selectByAttribute.js:49:75)
+                    at Element.wrapCommandFn (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\I can win\node_modules\@wdio\utils\build\shim.js:131:38)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\I can win\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\I can win\node_modules\@wdio\utils\build\shim.js:131:29)
+                    at async Element.wrapCommandFn (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\I can win\node_modules\@wdio\utils\build\shim.js:131:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\I can win\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\I can win\node_modules\@wdio\utils\build\shim.js:131:29)
+                    at async Context.&lt;anonymous> (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\I can win\test\specs\pastebin.test.js:9:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

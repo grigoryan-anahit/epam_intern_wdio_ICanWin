@@ -1,0 +1,109 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635425530262' stop='1635425533741'>
+    <name>pastebin application</name>
+    <title>pastebin application</title>
+    <test-cases>
+        <test-case start='1635425530262' status='broken' stop='1635425533739'>
+            <name>should set values</name>
+            <title>should set values</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.54'/>
+            </parameters>
+            <steps>
+                <step start='1635425530264' status='passed' stop='1635425530424'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='092b0dd6-ed6f-4076-8748-3c9d47cce22b-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635425530425' status='passed' stop='1635425533263'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='96da3ac8-cf94-4472-91ec-e5831409c12c-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635425533266' status='passed' stop='1635425533289'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3c3b3d97-2f08-41de-aae5-19eef5550d1e-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='a130a766-d736-4401-9579-533c941bd4ac-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635425533299' status='passed' stop='1635425533328'>
+                    <name>POST /session/:sessionId/element/de6ea12d-60c3-483d-94ea-7bbba5e0b708/clear</name>
+                    <title>POST /session/:sessionId/element/de6ea12d-60c3-483d-94ea-7bbba5e0b708/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1635425533336' status='passed' stop='1635425533391'>
+                    <name>POST /session/:sessionId/element/de6ea12d-60c3-483d-94ea-7bbba5e0b708/value</name>
+                    <title>POST /session/:sessionId/element/de6ea12d-60c3-483d-94ea-7bbba5e0b708/value</title>
+                    <attachments>
+                        <attachment title='Request' source='fe1da9d7-5fc0-4166-a633-15ae127e6750-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635425533393' status='passed' stop='1635425533418'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='1c41aa00-9661-4823-887e-ad81924c1248-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='53d3e493-d5a0-47fd-8f04-7519ca8fcf1f-attachment.json' type='application/json' size='366'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635425533430' status='passed' stop='1635425533445'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='37bec75e-969b-4ae4-8594-f0dc9507cc70-attachment.json' type='application/json' size='329'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635425533445' status='passed' stop='1635425533466'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='1b182a82-2005-4875-9788-873a9b864c83-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='e8fea28b-dd29-45f7-aa54-f588578700aa-attachment.json' type='application/json' size='366'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635425533475' status='passed' stop='1635425533524'>
+                    <name>POST /session/:sessionId/element/17978932-f6aa-494b-8425-63f3f25f1021/click</name>
+                    <title>POST /session/:sessionId/element/17978932-f6aa-494b-8425-63f3f25f1021/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1635425533525' status='passed' stop='1635425533736'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0b6ea05e-2982-47e5-9d19-63f8b502bd5c-attachment.png' type='image/png' size='88149'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>"keys" command requires a string or array of strings as parameter</message>
+                <stack-trace>Error: "keys" command requires a string or array of strings as parameter
+                    at Browser.keys (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\I can win\node_modules\webdriverio\build\commands\browser\keys.js:45:15)
+                    at Browser.wrapCommandFn (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\I can win\node_modules\@wdio\utils\build\shim.js:131:38)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async Context.&lt;anonymous> (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\I can win\test\specs\pastebin.test.js:10:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

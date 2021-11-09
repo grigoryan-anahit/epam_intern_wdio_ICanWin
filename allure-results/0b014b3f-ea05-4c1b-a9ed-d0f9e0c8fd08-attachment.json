@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[aria-activedescendant=\"select2-postform-expiration-result-gi2a-1D\"]\"}\n  (Session info: chrome=95.0.4638.54)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x005D3AB3+2505395]\n\tOrdinal0 [0x0056AE41+2076225]\n\tOrdinal0 [0x00472498+1057944]\n\tOrdinal0 [0x0049CB74+1231732]\n\tOrdinal0 [0x004C6D92+1404306]\n\tOrdinal0 [0x004B5A2A+1333802]\n\tOrdinal0 [0x004C5168+1397096]\n\tOrdinal0 [0x004B58BB+1333435]\n\tOrdinal0 [0x004923E4+1188836]\n\tOrdinal0 [0x0049323F+1192511]\n\tGetHandleVerifier [0x0075CB36+1554566]\n\tGetHandleVerifier [0x00804A0C+2242396]\n\tGetHandleVerifier [0x00660E0B+523099]\n\tGetHandleVerifier [0x0065FEB0+519168]\n\tOrdinal0 [0x005702FD+2097917]\n\tOrdinal0 [0x00574388+2114440]\n\tOrdinal0 [0x005744C2+2114754]\n\tOrdinal0 [0x0057E041+2154561]\n\tBaseThreadInitThunk [0x7620FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76FD7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76FD7A6E+238]\n"
+}
